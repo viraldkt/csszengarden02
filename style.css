@@ -94,6 +94,12 @@ header h2 abbr {
 	border-bottom: double;	
 }
 
+@media (max-width: 800px) {
+	.supporting {
+		width: 100%;
+	}
+}
+
 .supporting h3 {
 	background-color: rgba(0,0,0,0.6);
 	font-family: 'Quicksand', sans-serif;
@@ -116,6 +122,13 @@ header h2 abbr {
 	margin-top: -1323px;
 }
 
+@media (max-width: 800px) {
+	.sidebar {
+		width: 100%;
+		margin: 0;
+	}
+}
+
 .select {
 	background-image: url("bk02.jpg");
 	background-size: cover;
@@ -136,6 +149,12 @@ header h2 abbr {
 	border-right: double;
 	padding-bottom: 28px;
 	background-color: #c7c7c7;
+}
+
+@media (max-width: 800px) {
+	.design-selection {
+		padding-bottom: 25px;
+	}
 }
 
 .design-selection a {
@@ -187,6 +206,12 @@ header h2 abbr {
 	padding-bottom: 220px;
 }
 
+@media (max-width: 800px) {
+	.design-archives ul {
+		padding-bottom: 25px;
+	}
+}
+
 .resources {
 	background-image: url("bk02.jpg");
 	background-size: cover;
@@ -210,6 +235,12 @@ header h2 abbr {
 	padding-bottom: 542px;
 	border-bottom: double;
 	background-color: #c7c7c7;
+}
+
+@media (max-width: 800px) {
+	.zen-resources {
+		padding-bottom: 25px;
+	}
 }
 
 .zen-resources a {
